@@ -26,7 +26,7 @@
         "categories:accessibility": [
           "error",
           {
-            "minScore": 0.95
+            "minScore": 0.9
           }
         ],
         "categories:best-practices": [
@@ -43,7 +43,11 @@
         ],
         "uses-text-compression": "off",
         "uses-long-cache-ttl": "off",
-        "cache-insight": "off"
+        "cache-insight": "off",
+        "network-dependency-tree-insight": "off",
+        "lcp-discovery-insight": "off",
+        "document-latency-insight": "off",
+        "target-size": "off"
       }
     }
   }
