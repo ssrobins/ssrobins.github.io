@@ -1,10 +1,10 @@
 {
-  "extends": [
-    "html-validate:recommended"
-  ],
+  "extends": ["html-validate:recommended"],
   "rules": {
     "no-trailing-whitespace": "off",
     "no-inline-style": "off",
-    "prefer-button": "off"
+    "prefer-button": "off",
+    "doctype-style": "off",
+    "void-style": "off"
   }
 }
