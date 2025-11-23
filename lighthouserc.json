@@ -1,11 +1,12 @@
 {
   "ci": {
     "collect": {
+      "staticDistDir": ".",
       "url": [
-        "http://localhost:8080/index.html",
-        "http://localhost:8080/games.html",
-        "http://localhost:8080/games2024.html",
-        "http://localhost:8080/stackblox/index.html"
+        "http://localhost/index.html",
+        "http://localhost/games.html",
+        "http://localhost/games2024.html",
+        "http://localhost/stackblox/index.html"
       ],
       "numberOfRuns": 1,
       "settings": {
