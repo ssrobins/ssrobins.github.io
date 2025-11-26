@@ -1,26 +1,43 @@
-a:link    { text-decoration: none; color: #ffff00; font-weight: bold }
-a:visited { text-decoration: none; color: #ffff00; font-weight: bold }
-a:active  { text-decoration: underline; color: #ffff00; font-weight: bold }
-a:hover   { text-decoration: underline; color: #ffff00; font-weight: bold }
+a:link {
+  text-decoration: none;
+  color: #ff0;
+  font-weight: bold;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #ff0;
+  font-weight: bold;
+}
+
+a:active {
+  text-decoration: underline;
+  color: #ff0;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #ff0;
+  font-weight: bold;
+}
 
 body {
-  background-color: #000000;
-  color: #ffffff;
-  font-family: arial,sans-serif;
-  margin-bottom: 2%;
-  margin-left: 2%;
-  margin-right: 2%;
-  margin-top: 2%;
+  background-color: #000;
+  color: #fff;
+  font-family: arial, sans-serif;
+  margin: 2%;
 }
 
 h1 {
   text-align: center;
 }
 
-h4 {
+h2 {
   margin: 0;
   padding: 0;
   text-decoration: underline;
+  font-size: 1em;
 }
 
 p {
