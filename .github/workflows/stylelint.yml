@@ -18,8 +18,8 @@ jobs:
       with:
         node-version: '20'
 
-    - name: Install stylelint
-      run: npm install -g stylelint stylelint-config-standard
+    - name: Install dependencies
+      run: npm ci
 
     - name: Lint CSS files
-      run: stylelint "**/*.css"
+      run: npx stylelint "**/*.css"
